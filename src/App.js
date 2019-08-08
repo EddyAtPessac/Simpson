@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
+import Quotes from "./Quotes";
 import './App.css';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        <Quotes/>;
         </a>
       </header>
     </div>
