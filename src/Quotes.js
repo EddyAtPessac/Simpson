@@ -35,7 +35,7 @@ const Quotes = () => (
   <div>
     {quotes.map(quote => (
       //<img src={quote.image} />
-      <Quote quote={quote.quote} image={quote.image} character={quote.character} />
+      <Quote key={quote.image} quote={quote.quote} image={quote.image} character={quote.character} />
     ))}
   </div>
 );
